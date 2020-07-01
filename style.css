@@ -1,0 +1,111 @@
+    body {
+        font-family: 'Adamina';font-size: 22px;
+    }
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .half-width img{
+        width: 100%;
+    }
+
+    #name_color{
+            color: rgb(216, 35, 35);
+    }
+    .link_button{
+        text-decoration: none;
+        background-image: linear-gradient( 45deg, rgb(23, 154, 214), rgba(23, 231, 162, 0.87));
+        padding: 10px 20px ;
+        color:white;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+    section{
+        overflow: hidden;
+    }
+
+    .top{
+            background-image:url("images/header-bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    .biography{
+        background-image:url("images/biography-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .work_div{
+        width: 25%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-bottom: 70px;
+    }
+    .work_div img{
+        width: 100%;
+    }
+    .text_al{
+        text-align: center;
+
+    }
+    .font_si{
+        font-size: 12px;
+    }
+    .latest-work{
+        background-image:url("images/latest-work-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #bottom_div{
+        border-radius: 10px;
+        background-color: rgba(238, 36, 103, 0.795);
+        color: white;
+        width: 60%;
+        height: 150px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+    }
+    .font_pad{
+    padding-top: 40px;
+    }
+    .pad{
+        padding-top: 80px;
+    }
+    .margin{
+        margin-top: 80px;
+    }
+    .experience{
+        background-image: url("images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #full_stack{
+        border-left: 7px solid;
+        border-image: linear-gradient( 180deg, red ,  green);
+        border-image-slice: 1;
+    }
+    #baby_web{
+        border-left: 7px solid;
+        border-image: linear-gradient( 180deg, blue ,cyan);
+        border-image-slice: 1;
+    }
+    .single{
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 10px;
+        background-color: white;
+        height: 370px;
+    }
+    .client{
+        background-image:url("images/footer-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
